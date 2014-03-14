@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable codeship-status': 'codeship-status:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'codeship-status'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'codeship-status:toggle' }
+      ]
+    ]
+  }
+]

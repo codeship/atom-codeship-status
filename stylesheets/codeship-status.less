@@ -1,0 +1,26 @@
+@import "ui-variables";
+@import "octicon-mixins";
+
+.codeship-status {
+  .build-status {
+  }
+
+  .icon:before {
+    .icon-size(14px);
+    position: relative;
+    top: 1px;
+    margin-right: 0px;
+  }
+}
+
+.pending {
+  color: @text-color-warning;
+}
+
+.success {
+  color: @text-color-success;
+}
+
+.fail {
+  color: @text-color-error;
+}

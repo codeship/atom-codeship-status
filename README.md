@@ -31,12 +31,8 @@ Codeship project.
 uuid: abcdefgh-1234-ijkl-5678-mnopqrstuvwx
 ```
 
-You can find out the UUID of your project by looking at the status image URL on
-the _Notification_ tab of your project settings.
-
-```
-https://www.codeship.io/projects/__UUID__/status?branch=master
-```
+(You can find out the UUID of your project by going to the the _General_ tab of
+your project settings.)
 
 ### Commands
 

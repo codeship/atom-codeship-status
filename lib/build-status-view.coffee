@@ -2,7 +2,7 @@ https = require 'https'
 {View} = require 'atom'
 
 module.exports =
-# Internal: The main view for displaying the status from Travis CI.
+# Internal: The main view for displaying the status from Codeship.
 class BuildStatusView extends View
   # Internal: Build up the HTML contents for the fragment.
   @content: ->
@@ -69,7 +69,7 @@ class BuildStatusView extends View
         @update() if path is @getActiveItemPath()
       @subscribe repo, 'statuses-changed', @update
 
-  # Internal: Update the repository build status from Travis CI.
+  # Internal: Update the repository build status from Codeship.
   #
   # Returns nothing.
   update: =>
@@ -88,7 +88,7 @@ class BuildStatusView extends View
 
     updateRepo()
 
-  # Internal: Callback for the Travis CI repository request, updates the build
+  # Internal: Callback for the Codeship repository request, updates the build
   # status.
   #
   # err  - The error object if there was an error, else null.

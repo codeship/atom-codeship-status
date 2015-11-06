@@ -50,5 +50,5 @@ Feel free to open an issue to discuss potential features to add or improve.
 ## Credits
 
 This project is inspired and heavily based on the
-[Travis CI Status Package](https://atomcodeshipcodeship.io/packages/travis-ci-status) by
-[tombell](https://atomcodeshipcodeshipcodeship.io/users/tombell).
+[Travis CI Status Package](https://atom.io/packages/travis-ci-status) by
+[tombell](https://atom.io/users/tombell).

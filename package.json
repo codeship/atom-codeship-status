@@ -1,7 +1,7 @@
 {
   "name": "codeship-status",
   "main": "./lib/codeship-status",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Add the status of your Codeship builds to the Atom status bar",
   "repository": "https://github.com/codeship/atom-codeship-status",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
     "js-yaml": ">3.0.0"
   }
 }

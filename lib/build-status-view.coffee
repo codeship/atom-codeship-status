@@ -1,5 +1,5 @@
 https = require 'https'
-{View} = require 'atom'
+{View} = require 'atom-space-pen-views'
 
 module.exports =
 # Internal: The main view for displaying the status from Codeship.

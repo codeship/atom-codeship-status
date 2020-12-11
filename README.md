@@ -1,6 +1,6 @@
-# Codeship.io Status Package
+# Codeship.com Status Package
 
-Add the [Codeship.io](http://www.codeship.io) status of the project to the Atom status bar.
+Add the [Codeship.com](https://codeship.com) status of the project to the Atom status bar.
 
 ## Installing
 
@@ -42,7 +42,7 @@ The following commands are available for users to keymap.
 
 ## Coming Soon
 
-* Open the project on Codeship.io
+* Open the project on Codeship.com
 * Better support for multiple branches
 
 Feel free to open an issue to discuss potential features to add or improve.

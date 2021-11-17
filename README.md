@@ -9,7 +9,7 @@ Use the Atom package manager, which can be found in the Settings view or run
 
 ## Usage
 
-The Codeship status for the repository is displayed via the clock-arrow icon
+The CodeShip status for the repository is displayed via the clock-arrow icon
 in the Atom status bar. The icon will be orange when Codeship is currently
 building your project, green if the build was successfull and red if the build
 failed.
